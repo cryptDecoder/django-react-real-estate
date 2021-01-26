@@ -15,7 +15,7 @@ import store from './store'
 
 
 const App = ()=>(
-  <provider>
+  <provider store={store}>
     <Router>
       <Layout>
         <Switch>
